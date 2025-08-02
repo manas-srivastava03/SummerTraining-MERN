@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+  </head>
+  <body>
+    <!-- click image to open a link or direct to any webiste -->
+    <!-- target = "_blank" is used to open a link on a new page otherwise it opens on the same page -->
+    <center>
+      <a href="https://www.united.ac.in" target="_blank">
+        <img
+          src="https://united.ac.in/adm/images/logo.png"
+          alt="united website"
+        />
+      </a>
+    </center>
+    <br />
+    <br />
+
+    <!-- table tag -->
+
+    <table border="1" align="center">
+      <caption>
+        Table 1
+      </caption>
+      <thead>
+        <th>S.NO.</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Address</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Manas</td>
+          <td>21</td>
+          <td>Prayagraj</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Prashant</td>
+          <td>21</td>
+          <td>Prayagraj</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+
+    <!-- complex table -->
+    <!-- using rowspan we can merge rows and using colspan we can merge columns -->
+
+    <table border="1" align="center">
+      <caption>
+        Table 2
+      </caption>
+      <thead>
+        <tr>
+          <th rowspan="2">S.NO</th>
+          <th colspan="2">Name</th>
+          <th rowspan="2">Age</th>
+          <th rowspan="2">Address</th>
+        </tr>
+        <tr>
+          <th>First</th>
+          <th>Last</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Manas</td>
+          <td>Srivastava</td>
+          <td>21</td>
+          <td>Prayagraj</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Prashant</td>
+          <td>Tiwari</td>
+          <td>21</td>
+          <td>Prayagraj</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+
+    <!-- complex table 2 -->
+
+    <table width="400px" border="1" align="center">
+      <caption>
+        Table 3
+      </caption>
+      <thead>
+        <tr>
+          <th colspan="6">Summer Training 2025</th>
+        </tr>
+        <tr>
+          <th rowspan="2">S.NO.</th>
+          <th colspan="2">Name</th>
+          <th colspan="2">address</th>
+          <th rowspan="2">Course</th>
+        </tr>
+        <tr>
+          <th>first name</th>
+          <th>last name</th>
+          <th>city</th>
+          <th>state</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>manas</td>
+          <td>srivastava</td>
+          <td>prayagraj</td>
+          <td>UP</td>
+          <td rowspan="3">Btech</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>prashant</td>
+          <td>tiwari</td>
+          <td>prayagraj</td>
+          <td>UP</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>parikshit</td>
+          <td>pandey</td>
+          <td>prayagraj</td>
+          <td>UP</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+    <br />
+
+    <!-- Form -->
+    <!-- structure to collect user input -->
+
+    <fieldset>
+      <legend>Form 1</legend>
+      <form>
+        <h2 align="center">User Registration Window</h2>
+        <table cellpadding ="5" cellspacing="10" align="center">
+          <tr>
+            <td><label for="1">Name:</label></td>
+            <td><input type="text" id="1" /></td>
+          </tr>
+          <tr>
+            <td><label for="2">Password:</label></td>
+            <td><input type="password" id="2" /></td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <input type="radio" id="3" value="male" name="gender" />
+              <label for="3">Male</label>
+              <input type="radio" id="4" value="female" name="gender" />
+              <label for="4">Female</label>
+              <input type="radio" id="5" value="other" name="gender" />
+              <label for="5">Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Qualification:</td>
+            <td>
+              <input type="checkbox" id="6" />
+              <label for="6">B.Tech</label>
+              <input type="checkbox" id="7" />
+              <label for="7">M.Tech</label>
+              <input type="checkbox" id="8" />
+              <label for="8">PHD</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="9">Date of Birth:</label></td>
+            <td><input type="date" id="9" /></td>
+          </tr>
+          <tr>
+            <td><label for="10">Experience (years):</label></td>
+            <td><input type="number" id="10" /></td>
+          </tr>
+          <tr>
+            <td><label for="11">City:</label></td>
+            <td>
+              <select id="11" name="select city">
+                <option value="Prayagraj">Prayagraj</option>
+                <option value="Mirzapur">Mirzapur</option>
+                <option value="Varanasi">Varanasi</option>
+                <option value="Bhadohi">Bhadohi</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="12">Profile Picture:</label></td>
+            <td><input type="file" id="12" /></td>
+          </tr>
+          <tr>
+            <td><label for="13">Comments:</label></td>
+            <td>
+              <textarea
+                id="13"
+                name="comments"
+                placeholder="Enter your comments here"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center"><button>Register Me</button></td>
+          </tr>
+        </table>
+      </form>
+    </fieldset>
+  </body>
+</html>

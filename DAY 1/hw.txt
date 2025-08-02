@@ -1,0 +1,36 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BIODATA - Manas Srivastava</title>
+</head>
+<body>
+
+    <h1 style="background-color: skyblue; text-align: center; color: white;">BIODATA</h1>
+    <h2 style="background-color: skyblue; text-align: center;"> Personal Details</h2>
+    <pre>
+  Name                 : Manas Srivastava            
+  Father's Name        : Abhinav Srivastava
+  Mother's Name        : Suchi Srivastava             
+  Date of Birth        : 25/01/2004
+
+ 
+ 
+  Age                  : 21                     Mobile No     : +91 8960457454
+  Gender               : Male                   Email Address : manas.ssrivastava1236@gmail.com
+  Nationality          : Indian                 Address       : Prayagraj, Uttar Pradesh, India
+  Languages known      : Hindi, English         Hobbies       : Reading, Football, Chess, Coding
+    </pre>
+    <h2 style="background-color: skyblue; text-align: center;">Education</h2>
+    <pre>
+  <b>United Institute of Technology</b>                                                    2023 - 2027
+  <b>Btech in Computer Science and Engineering</b>                                         SGPA 8.32
+        
+   <b>.</b> Taken Data Structure, Operating System, Theory of Computation courses 
+    </pre>
+    <h2 style="background-color: skyblue; text-align: center;">Projects</h2>
+    <pre>
+  <b>.</b>  Student Management System using Core Java with Collection Framework and using AWT.
+    </pre>
+
+</body>
+</html> -->
