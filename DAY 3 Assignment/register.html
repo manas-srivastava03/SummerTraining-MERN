@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>UGI - Register</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
+        font-weight: 700;
+        margin-top: 20px;
+      }
+      hr {
+        border: none;
+        border-top: 2px solid black;
+        margin: 20px 0;
+      }
+      fieldset, legend{
+        color: black;
+      }
+    </style>
+  </head>
+  <body bgcolor="skyblue">
+    <h1>Registration Form</h1>
+    <hr />
+    <fieldset>
+      <legend>Register here</legend>
+      <form>
+        <h2 align="center">User Registration Window</h2>
+        <table cellpadding="5" cellspacing="10" align="center">
+          <tr>
+            <td><label for="1">Name:</label></td>
+            <td><input type="text" id="1" /></td>
+          </tr>
+          <tr>
+            <td><label for="2">Address:</label></td>
+            <td><input type="text" id="2" /></td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <input type="radio" id="3" value="male" name="gender" />
+              <label for="3">Male</label>
+              <input type="radio" id="4" value="female" name="gender" />
+              <label for="4">Female</label>
+              <input type="radio" id="5" value="other" name="gender" />
+              <label for="5">Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Select Course:</td>
+            <td>
+              <input type="checkbox" id="6" />
+              <label for="6">B.Tech</label>
+              <input type="checkbox" id="7" />
+              <label for="7">M.Tech</label>
+              <input type="checkbox" id="8" />
+              <label for="8">PHD</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="9">Date of Birth:</label></td>
+            <td><input type="date" id="9" /></td>
+          </tr>
+          <tr>
+            <td><label for="10">Class 12th Percentage:</label></td>
+            <td><input type="number" id="10" /></td>
+          </tr>
+          <tr>
+            <td><label for="11">City:</label></td>
+            <td>
+              <select id="11" name="select city">
+                <option value="Prayagraj">Prayagraj</option>
+                <option value="Mirzapur">Mirzapur</option>
+                <option value="Varanasi">Varanasi</option>
+                <option value="Bhadohi">Bhadohi</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="12">Current Photo:</label></td>
+            <td><input type="file" id="12" /></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center"><button>Register Me</button></td>
+          </tr>
+        </table>
+      </form>
+    </fieldset>
+  </body>
+</html>
