@@ -1,0 +1,38 @@
+/* selectors :: tag selectors(any specific tag like h1, div, etc), class selectors(represented by . and class name ), id selector( representation #idname) */
+
+h1,
+h3 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  background-color: bisque;
+}
+.p1 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: antiquewhite;
+  background-color: gray;
+}
+.p2 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: antiquewhite;
+  background-color: rgb(171, 71, 71);
+}
+#p3 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: antiquewhite;
+  background-color: rgb(111, 57, 57);
+}
+
+h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: yellow;
+}
