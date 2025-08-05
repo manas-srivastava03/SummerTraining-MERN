@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Adder</title>
+    <script src="f1.js"></script>
+  </head>
+  <body>
+    <form name="f1">
+      <table cellpadding="5" cellspacing="5">
+        <tr>
+          <td><label for="t1">First Number:</label></td>
+          <td><input type="number" id="t1" name="t1" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="t2">Second Number:</label></td>
+          <td><input type="number" id="t2" name="t2" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="t3">Sum:</label></td>
+          <td><input type="number" id="t3" name="t3" readonly /></td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <input type="button" value="Add" onclick="add()" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <hr />
+    <form name="f2">
+      <table cellpadding="5" cellspacing="5">
+        <tr>
+          <td><label for="t1">First Number:</label></td>
+          <td><input type="number" id="t1" name="t1" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="t2">Second Number:</label></td>
+          <td><input type="number" id="t2" name="t2" /></td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <input type="button" value="Swap" onclick="swap()" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <hr>
+      <form name="f3">
+    <table cellpadding="5" cellspacing="5">
+      <tr>
+        <td><label for="t1">Number:</label></td>
+        <td><input type="number" id="t1" name="t1" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="t2">Check Prime or Not:</label></td>
+        <td><input type="text" id="t2" name="t2" readonly /></td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <input type="button" value="Check" onclick="prime()" />
+        </td>
+      </tr>
+    </table>
+  </form>
+  </body>
+</html>

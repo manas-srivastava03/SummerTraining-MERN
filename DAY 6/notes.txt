@@ -1,0 +1,37 @@
+Intro to Js
+>> js is a scripting language as well as programming language
+>> for executing a js code on local machine node js framework is required
+>> for executing a program on local machine we must save with extension js and execute like the following ::
+
+// node filename.js
+
+Basic programming constructs
+
+    TOKENS
+        1. identifiers
+        2. keywords
+        3. datatype (js is a dynamically typed)
+        4. operators
+
+            operator
+                1. assignment
+                2. arithemati
+                3. relational (=== strictly equal to)
+                4. logica
+                5. increment and decrement
+                6. conditiona
+                7. shorthand operato
+                8. bitwise operator
+
+repl = read evaluate print loop  (to check one line)
+
+VARIABLE :: 
+
+        1. var
+        2. let
+        3. const
+
+javascript events
+        1. onclick()
+        2. onblur() - when focus goes out
+        3. onfocus() - when focus comes in
