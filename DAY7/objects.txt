@@ -1,0 +1,23 @@
+let obj = {
+    "roll number" : 2302840100120,
+    "name" : "manas",
+    "course" = Btech,
+    "age : 21
+}
+
+
+JS objects ::
+
+>> JS is and object oriented as well as object based language(jo language aap ko bane banae object deti hai)
+
+>> some built in object of JS are :: document, window, math, array, etc
+
+document obj > it refer the current web page which is executing on a browser.
+    methods :
+        1. write() : used to writing any thing on the web page
+        2.getElementById()
+    properties :
+        1. bgColor
+        2. fgColor    
+
+ques >> create a web page which contains a heading and the caption of the heading will be "united group of institution" and the button just below the heading when the user will click on the button the color of heading will be red and bg color will be yellow

@@ -1,0 +1,13 @@
+>> DHTMl is not a programming language, while it is th e combination of HTML, CSS, JS and DOM.
+
+>> Used for creating eb pages more dynamic and interactive
+
+>> It allows for accessing any element of the web page and change them dynamically.
+
+>> For accessing 
+    1. document.getElementById("idname").attributename = value
+    2. document.getElementById("idname").innerHTML = content
+    3. document.getElementById("idname").style.stylename = value
+
+    
+            

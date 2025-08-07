@@ -1,0 +1,19 @@
+understanding setTimeout >> examp
+
+function message(){
+    console.log("Hello");
+}
+setTimeout(message,100);
+console.log("Hello friends");
+
+promises => are used for handling the synchronization issue in the js 
+
+Syntax of promises 
+
+let variablename = new Promise((resolve,reject)=>{
+    // code
+});
+variablename.then(()=>{
+    // code
+});  
+

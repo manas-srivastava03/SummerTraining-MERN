@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #profileImage {
+        border: 5px solid transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="IMG_20240615_024937_591.jpg"
+      id="profileImage"
+      onmouseover="change()"
+      onmouseout="restore()"
+      width="200px"
+    />
+
+    <form id="loginForm">
+      <label for="username">UserName:</label>
+      <input type="text" id="username" required /><br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required /><br /><br />
+
+      <input type="button" value="Login" id="loginButton" onclick="a1()" />
+    </form>
+
+    <script>
+      const original = "IMG_20240615_024937_591.jpg";
+      const converted = "hp.jpeg";
+
+      function change() {
+        document.getElementById("profileImage").src = converted;
+      }
+
+      function restore() {
+        document.getElementById("profileImage").src = original;
+      }
+
+      function a1() {
+        if (username.value === "")
+          document.getElementById("username").style.borderColor = "red";
+        else document.getElementById("username").style.borderColor = "green";
+
+        if (password.value === "")
+          document.getElementById("password").style.borderColor = "red";
+        else document.getElementById("password").style.borderColor = "green";
+      }
+    </script>
+  </body>
+</html>
